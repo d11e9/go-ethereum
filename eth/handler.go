@@ -125,9 +125,9 @@ func (pm *ProtocolManager) Start() {
 	go pm.minedBroadcastLoop()
 
 	// start sync handlers
-	go pm.syncer()
-	go pm.fetcher()
-	go pm.txsyncLoop()
+	//go pm.syncer()
+	//go pm.fetcher()
+	//go pm.txsyncLoop()
 }
 
 func (pm *ProtocolManager) Stop() {

@@ -265,6 +265,10 @@ var (
 		Name:  "shh",
 		Usage: "Enable whisper",
 	}
+	EthDisabledFlag = cli.BoolFlag{
+		Name:  "noeth",
+		Usage: "Disable eth",
+	}
 	// ATM the url is left to the user and deployment to
 	JSpathFlag = cli.StringFlag{
 		Name:  "jspath",
